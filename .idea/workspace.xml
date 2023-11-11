@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05e492e6-1b45-46b0-9b54-5ad4385ad865" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/P1/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/P1/Persoana.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/P2/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/P2/PerecheNumere.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/PerecheNumere.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mobilier.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/persoane.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/P2/PerecheNumereTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/P1/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/P1/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/P2/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/P2/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/P2/PerecheNumere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/P2/PerecheNumere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/PerecheNumere.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/PerecheNumere.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/persoane.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/persoane.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,15 +24,19 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2XoR7Y4VZ0H5D8ApO7B3PY7EOzJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,15 +49,52 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="P2" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PerecheNumereTest.cmmmc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Recapitulare_Lab_5_PJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="P2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="P2" />
+      <option name="MAIN_CLASS_NAME" value="P2.PerecheNumereTest" />
+      <option name="METHOD_NAME" value="cmmmc" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PerecheNumereTest.cmmmc" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,10 +104,17 @@
       <option name="presentableId" value="Default" />
       <updated>1699293280149</updated>
       <workItem from="1699293281164" duration="4361000" />
+      <workItem from="1699729923396" duration="2590000" />
+      <workItem from="1699733439227" duration="2785000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Recapitulare_Lab_5_PJ$MainApp.ic" NAME="MainApp Coverage Results" MODIFIED="1699732703339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>P2.*</FILTER>
+    </SUITE>
   </component>
 </project>

@@ -33,6 +33,32 @@ public class MainApp {
     }
 
     public static void main(String[] args) {
-            List<PerecheNumere> per = citire();
+
+        List<PerecheNumere> per = citire();
+        for(PerecheNumere p: per){
+            if(p.Fibonacci())
+            {
+                System.out.println(p);
+            }
+        }
+        System.out.print("\n");
+
+        for(PerecheNumere p: per){
+            System.out.print(p.cmmmc() + " ");
+        }
+        System.out.print("\n");
+
+        for(PerecheNumere p:per){
+            if(p.sumaCifreEgala()){
+                System.out.println(p);
+            }
+        }
+        System.out.print("\n");
+
+        for(PerecheNumere p: per){
+            if(p.validareCifrePare()){
+                System.out.println(p);
+            }
+        }
     }
 }

@@ -24,6 +24,7 @@ public class MainApp {
             ObjectMapper mapper = new ObjectMapper();
             List<Persoana> pers = mapper.readValue(file, new TypeReference<List<Persoana>>(){});
             return pers;
+            //se poate si return mapper.readValue(file, new TypeReference<List<Persoana>>(){});
         }catch (IOException e){
             System.err.println("FisierCox!!" + e.getMessage());
         }
