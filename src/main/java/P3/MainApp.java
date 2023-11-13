@@ -1,13 +1,10 @@
 package P3;
 
 import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.File;
 import java.io.IOException;
-import java.sql.SQLOutput;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -18,12 +15,10 @@ public class MainApp {
             ObjectMapper mapper = new ObjectMapper();
             //mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES); //asta ii pentru ca nu poate citi clasa placa (placa: [) ca asteapta un String da tu ii dai un array
             //!!! nu trebe neaparat aia ca am scris descriere gresit
-            List<Mobilier> mob = mapper.readValue(file, new TypeReference<List<Mobilier>>() {
+            return mapper.readValue(file, new TypeReference<>() { // trebe in cazu asta Lista in TypeReference
             });
-            return mob;
         }catch (IOException e){
             System.err.println("Fisier gol!!" + e.getMessage());
-            //return null;
         }
         return null;
     }
@@ -48,9 +43,10 @@ public class MainApp {
                 case 1:
                     mob = citire();
                     System.out.println("Datele au fost citite cu success!!");
-                    for (Mobilier m : mob) {
-                        System.out.println(m);
-                    }
+                    if(mob != null)
+                        for (Mobilier m : mob) {
+                            System.out.println(m);
+                        }
                     break;
                 case 2:
                     afisareCerinta2(mob);
@@ -60,6 +56,9 @@ public class MainApp {
                     break;
                 case 4:
                     afisareNrColiNecesare(mob);
+                    break;
+                case 5:
+                    System.exit(0);
                     break;
                 default:
                     break;

@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05e492e6-1b45-46b0-9b54-5ad4385ad865" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/P3/MainApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/P3/Mobilier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/P3/Placa.java" afterDir="false" />
+    <list default="true" id="05e492e6-1b45-46b0-9b54-5ad4385ad865" name="Changes" comment="Done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/P2/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/P2/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/P3/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/P3/MainApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,10 +101,23 @@
       <workItem from="1699729923396" duration="2590000" />
       <workItem from="1699733439227" duration="2785000" />
     </task>
+    <task id="LOCAL-00001" summary="Done">
+      <option name="closed" value="true" />
+      <created>1699873863284</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1699873863284</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Recapitulare_Lab_5_PJ$MainApp.ic" NAME="MainApp Coverage Results" MODIFIED="1699732703339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
